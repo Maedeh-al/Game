@@ -1,17 +1,18 @@
-name: CI
+m=int(input())
 
-on: [push]
+if m==1 or m==4 or m==6 or m==9:
+    print("Yes")
+else:
+    print("No")
 
-jobs:
-  build:
+if m==3 or m==4 or m==8 or m==9:
+    print("Yes")
+else:
+    print("No")
 
-    runs-on: ubuntu-latest
+if m==5 or m==6 or m==8 or m==9:
+    print("Yes")
+else:
+    print("No")
 
-    steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+
