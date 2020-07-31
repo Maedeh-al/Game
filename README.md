@@ -17,6 +17,8 @@ The output consists of 3 lines. If the goal was scored, print Yes, otherwise pri
 for example:
 Input
 1
+
+
 Output
 Yes
 No
